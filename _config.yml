@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 今年元夜时 月与猫依旧
-subtitle: 
-description: ''
-keywords:
+title: 馋猫的小站
+subtitle: ''
+description: '今年元夜时 月与猫依旧'
+keywords: 
 author: zzsqjdhqgb
-language: zh-CN
-timezone: ''
+language: zh-cn
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
