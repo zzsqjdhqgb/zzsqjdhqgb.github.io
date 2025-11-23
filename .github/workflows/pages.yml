@@ -25,23 +25,18 @@ jobs:
           submodules: recursive # 如果用了 git submodule 主题
           fetch-depth: 0        # 抓取全量历史，为了让文章日期准确
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: 'pnpm'
+          cache: 'yarn'
 
       - name: Install Dependencies
         # 这里会自动触发你在 package.json 里写的 postinstall (hoistdep.mjs)
-        run: pnpm install --frozen-lockfile
+        run: yarn install --frozen-lockfile
 
       - name: Build Hexo
-        run: pnpm hexo generate
+        run: yarn hexo generate
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
