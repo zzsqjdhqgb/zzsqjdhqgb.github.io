@@ -1,4 +1,4 @@
-name: Deploy Hexo with pnpm
+name: Deploy Hexo with yarn
 
 on:
   push:
