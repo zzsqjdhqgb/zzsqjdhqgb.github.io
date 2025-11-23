@@ -1,0 +1,13 @@
+diff --git a/node_modules/hexo-theme-shokax/layout/_partials/post/copyright.pug b/node_modules/hexo-theme-shokax/layout/_partials/post/copyright.pug
+index 6ea8d7c..94e9eee 100644
+--- a/node_modules/hexo-theme-shokax/layout/_partials/post/copyright.pug
++++ b/node_modules/hexo-theme-shokax/layout/_partials/post/copyright.pug
+@@ -9,7 +9,7 @@ if page.copyright !== false
+                 != page.author || author
+                 i(class="ic i-at")
+                     em @
+-                != title
++                a(href="https://github.com/zzsqjdhqgb", target="_blank", rel="noopener external nofollow noreferrer") GitHub
+             li(class="link")
+                 strong
+                     != __('post.copyright.link') + __('symbol.colon')
