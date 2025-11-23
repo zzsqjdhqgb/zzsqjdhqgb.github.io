@@ -6,7 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "postinstall": "node ./node_modules/hexo-theme-shokax/toolbox/hoistdep.mjs"
   },
   "hexo": {
     "version": "7.3.0"
@@ -19,7 +20,7 @@
     "es-toolkit": "1.39.8",
     "esbuild": "0.25.8",
     "hana-img-viewer": "1.2.3",
-    "hexo": "^7.3.0",
+    "hexo": "7.3.0",
     "hexo-algoliasearch": "2.0.1",
     "hexo-feed": "1.1.2",
     "hexo-fs": "5.0.0",
