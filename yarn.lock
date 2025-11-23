@@ -1583,20 +1583,7 @@
   resolved "https://registry.yarnpkg.com/@waline/api/-/api-1.0.0.tgz#ff299456a796d989bfeb789459a4bfa2c1efa335"
   integrity sha512-o0lWjt+/oZH1/4q3DJxTf5kdkgNbSmoLRXIiGznW225A6hq9/9IkOO1DiAijIsxGYJS6psFC+58+IzkD1EerBA==
 
-"@waline/client@3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@waline/client/-/client-3.6.0.tgz#1912994fd3035a87169d51b11714ef282ba902c9"
-  integrity sha512-GzRHOpyveRlJamS/QOQ6OItYzvU6px4wtb9enGiwtWcODHSgU+21GZd++czjLwwiyiEgMNOCe8Wqll4ianI38w==
-  dependencies:
-    "@vueuse/core" "^13.5.0"
-    "@waline/api" "1.0.0"
-    autosize "^6.0.1"
-    marked "^16.0.0"
-    marked-highlight "^2.2.2"
-    recaptcha-v3 "^1.11.3"
-    vue "^3.5.17"
-
-"@waline/client@^3.6.0":
+"@waline/client@3.8.0", "@waline/client@^3.6.0":
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/@waline/client/-/client-3.8.0.tgz#01b46e6e5225e1846caa4d4244b09fc7593ce56f"
   integrity sha512-UAbqLmqy2Pns/CXFlrLYEDG4F1peRPo+wp2FmpfFL9BO0ceQO6KvvAJXw3EhX3wWcMiKlX29G0gJVtG4UlCzGw==
@@ -3677,7 +3664,7 @@ marked@^15.0.4:
   resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.12.tgz#30722c7346e12d0a2d0207ab9b0c4f0102d86c4e"
   integrity sha512-8dD6FusOQSrpv9Z1rdNMdlSgQOIP880DHqnohobOmYLElGEqAL/JvxvuxZO16r4HtjTlfPRDC1hbvxC9dPN2nA==
 
-marked@^16.0.0, marked@^16.4.1:
+marked@^16.4.1:
   version "16.4.2"
   resolved "https://registry.yarnpkg.com/marked/-/marked-16.4.2.tgz#4959a64be6c486f0db7467ead7ce288de54290a3"
   integrity sha512-TI3V8YYWvkVf3KJe1dRkpnjs68JUPyEa5vjKrp1XEEJUAOaQc+Qj+L1qWbPd0SJuAdQkFU0h73sXXqwDYxsiDA==
@@ -5136,7 +5123,7 @@ vue@3.5.18:
     "@vue/server-renderer" "3.5.18"
     "@vue/shared" "3.5.18"
 
-vue@^3.5.13, vue@^3.5.17, vue@^3.5.18, vue@^3.5.22:
+vue@^3.5.13, vue@^3.5.18, vue@^3.5.22:
   version "3.5.24"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.5.24.tgz#1b93af349faa064f46e70ac5b0caaa3d0952bbf3"
   integrity sha512-uTHDOpVQTMjcGgrqFPSb8iO2m1DUvo+WbGqoXQz8Y1CeBYQ0FXf2z1gLRaBtHjlRz7zZUBHxjVB5VTLzYkvftg==
