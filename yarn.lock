@@ -2716,12 +2716,7 @@ gzip-size@^6.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-hana-img-viewer@1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/hana-img-viewer/-/hana-img-viewer-1.2.3.tgz#4c486d0199ed6070c360b499165d6b4b60f4ac53"
-  integrity sha512-TqEaIZB5nnum72eGI6sMRjMkVDTAv5qvJ8G4oRjNmZN6/HPKmZ5ROBX0a93nP9Qsn7m0VAReJ1QvXidyiZ9f6A==
-
-hana-img-viewer@^1.2.3:
+hana-img-viewer@1.2.9, hana-img-viewer@^1.2.3:
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/hana-img-viewer/-/hana-img-viewer-1.2.9.tgz#af2fda66828a41512bd9cfdfeaba52db117a6fb3"
   integrity sha512-qOfw8MI0k+9Rchoby1j08iv72RHCg+rFavcifY0mW+/0OB1aXKSx3GGtO32EevCMLoBNXb0/zUBBTAGwyHzhpQ==
